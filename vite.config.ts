@@ -6,8 +6,8 @@ export default {
   plugins: [react()],
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src'),
       '@Testy': resolve(__dirname, './src/components/testy'),
+      '@': resolve(__dirname, './src'),
     },
   },
   server: {

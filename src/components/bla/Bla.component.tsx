@@ -1,7 +1,7 @@
-export interface TestyProps {
+export interface BlaProps {
   title: string;
 }
 
-export const Testy = (props: TestyProps) => {
+export const Bla = (props: BlaProps) => {
   return <div style={{ background: 'red' }}>{props.title}</div>;
 };

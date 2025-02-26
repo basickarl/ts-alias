@@ -2,10 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-// import { Testy } from './components/testy';
-import { Testy } from '@Testy';
+import { Testy, type TestyProps } from '@Testy';
+import { Bla } from '@/components/bla';
 
 function App() {
+  const hello: TestyProps['title'] = 'hello';
+
+  console.info({ logo });
+  console.info(typeof logo);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -20,7 +25,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <Testy />
+          <Testy title={hello} />
+          <Bla title="bla" />
         </a>
       </header>
     </div>

@@ -13,7 +13,6 @@
   },
   "scripts": {
     "dev": "npx --no vite --config=vite.config.ts",
-    "dev-does-not-use-config": "npx --no vite --config vite.config.ts",
     "build": "npx --no vite build --config=vite.config.ts"
   },
   "devDependencies": {
